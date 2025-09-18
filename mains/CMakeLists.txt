@@ -1,0 +1,4 @@
+#add the executable target named HelloWorld
+add_executable(HelloWorld hello_2025.cpp)
+#add binary tree to the list of paths to search includes
+target_include_directories(HelloWorld PUBLIC "${PROJECT_BINARY_DIR}")
