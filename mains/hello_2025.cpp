@@ -1,20 +1,7 @@
 // software_eng1.cpp : Ce fichier contient la fonction 'main'. L'exécution du programme commence et se termine à cet endroit.
 //
 
-#include <iostream>
-
-#include<cmake/HelloProjConfig.h>
-
-void hello_world() {
-	std::cout << "Hello World!\n";
-}
-void print_version() {
-	std::cout <<"project version is"
-  << HelloProj_VERSION_MAJOR
-  << "."
-  << HelloProj_VERSION_MINOR
-  << std::endl;
-}
+#include<basic/message.h>
 int main()
 {
 	hello_world();
