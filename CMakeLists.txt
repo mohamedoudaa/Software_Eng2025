@@ -18,7 +18,7 @@ if(HELLOWORD_WITH_EXECUTABLES)
 endif()
 #add tests
 option(HELLOWORD_WITH_TESTS "Compile tests" ON)
-if(Tests_WITH_EXECUTABLES)
+if(HELLOWORD_WITH_TESTS)
   enable_testing()
   message(STATUS "Configuring Hello World with  tests")
   add_subdirectory(tests)
